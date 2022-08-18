@@ -29,7 +29,7 @@ def dfs(v, N):
                 break               #while
 
 V, E = map(int, input().split()) # V=6 E=8
-N = V + 1 # N: 8
+N = V + 1 # N: 7
 adjList = [[] for _ in range(N)]
 for _ in range(E):
     a, b = map(int, input().split())
@@ -39,3 +39,4 @@ for _ in range(E):
 visited = [0] * N   # visited 생성
 stack = [0] * N     # stack 생성
 dfs(0, N)
+print()
