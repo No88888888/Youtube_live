@@ -22,6 +22,7 @@ def f(i, N):
         # f(i+1, N)
         # bit[i] = 0
         # f(i+1,N)
+    return answer
         
 A = [1,2,3,4,5,6,7,8,9,10]
 bit = [0] * 10

@@ -4,6 +4,7 @@ def nCr(n,r,s):
     else:
         for i in range(s, n-r+1):
             comb[r-1] = A[i]
+            print(comb)
             nCr(n, r-1, i+1)
 
 A =[1,2,3,4,5]
