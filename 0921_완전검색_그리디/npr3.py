@@ -30,5 +30,7 @@ N, R = map(int, input().split())
 arr = list(map(int, input().split()))
 # a= [i for i in range(1,N+1)]
 used = [0] * N
+used[0] = 1
 p = [0]*R
-f(0,N, R)
+p[0]= 1
+f(1, N, R)

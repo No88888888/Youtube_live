@@ -14,5 +14,5 @@ def f(i,k):
 arr = [3,6,7,1,5,4]
 n = len(arr)
 
-bit = [0] * n       
+bit = [0] * n
 f(0,n)
