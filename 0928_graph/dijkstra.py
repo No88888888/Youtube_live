@@ -34,7 +34,7 @@ for tc in range(int(input())):
         D = [100000]*(N+1)    # 출발지에서 각 집까지 걸리는 최단시간 배열
         dijkstra(i)  # 출발지에서 각 집까지 걸리는 최단시간 구하기
         if i != X:
-            res[i] += D[X]  # 각 잡에서 인수집까지 걸리는 최단시간을 res에 저장
+            res[i] += D[X]  # 각 집에서 인수집까지 걸리는 최단시간을 res에 저장
         else:
             for j in range(len(D)): # 인수집에서 각 집까지 걸리는 최단시간을 
                 res[j] += D[j]      # 인수집까지 오는 시간에 플러스
